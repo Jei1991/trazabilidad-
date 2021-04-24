@@ -1,0 +1,70 @@
+// SPDX License Identifier: MIT 
+
+pragma solidity >=0.7.0 <0.8.0;
+
+contract Granjero{
+    string texto_guia;
+    string texto_categoria;
+    string numero_animales;
+    string texto_genero;
+    string texto_movilidad;
+    string texto_salida;
+    string texto_origen;
+    
+   function Escribir_guia (string calldata _texto_guia) public{
+        texto_guia = _texto_guia;
+    }
+    
+    function leer_guia() public view returns(string memory){
+        return texto_guia;
+    }
+    
+    function Escribir_categoria (string calldata _texto_categoria) public{
+        texto_categoria = _texto_categoria;
+    }
+    
+    function leer_categoria() public view returns(string memory){
+        return texto_categoria;
+    }
+    
+    function Escribir_animales(string calldata _numero_animales) public{
+        numero_animales = _numero_animales;
+    }
+    
+    function leer_animales() public view returns(string memory){
+        return numero_animales;
+    }
+    
+     function Escribir_genero (string calldata _texto_genero) public{
+        texto_genero = _texto_genero;
+    }
+    
+    function leer_genero () public view returns(string memory){
+        return texto_genero;
+    }
+    
+    function Escribir_movilidad (string calldata _texto_movilidad) public{
+        texto_movilidad = _texto_movilidad;
+    }
+    
+    function leer_movilidad () public view returns(string memory){
+        return texto_movilidad;
+    }
+    
+    function Escribir_salida(string calldata _texto_salida) public{
+      texto_salida = _texto_salida;
+    }
+    
+    function leer_salida() public view returns(string memory){
+        return texto_salida;
+    }
+    
+     function Escribir_origen(string calldata _texto_origen) public{
+       texto_origen = _texto_origen;
+    }
+    
+     function leer_origen() public view returns(string memory){
+        return texto_origen;
+    }
+    
+}
