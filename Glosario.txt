@@ -1,41 +1,41 @@
-Criptomoneda:Una criptomoneda, criptodivisa o 
+Criptomoneda: Una criptomoneda, criptodivisa o 
 criptoactivo es un medio digital de intercambio 
 que utiliza criptografía fuerte para asegurar las 
 transacciones, controlar la creación de unidades 
 adicionales y verificar la transferencia de activos 
 usando tecnologías de registro distribuido
 
-Metamask:MetaMask Es un software de Criptomoneda, que 
+Metamask: MetaMask Es un software de Criptomoneda, que 
 instalada como extensión de un navegador web, es utilizado
 para interactuar con la plataforma, de blockchain, Ethereum.
 
-Hash:La función hash tiene como entrada un conjunto de 
+Hash: La función hash tiene como entrada un conjunto de 
 elementos, que suelen ser cadenas, y los convierte en un 
 rango de salida finito, normalmente cadenas de longitud 
 fija. Es decir, la función actúa como una proyección del 
 conjunto U sobre el conjunto M.Hay que tener en cuenta 
 que M puede ser un conjunto definido de enteros.
 
-Ethereum:Ethereum es una plataforma open source, que 
+Ethereum: Ethereum es una plataforma open source, que 
 sirve para programar contratos inteligentes. 
 La plataforma es descentralizada a diferencia de otras 
 cadenas de bloques. Es programable, lo que significa que 
 los desarrolladores pueden usarlo para crear nuevos tipos 
 de aplicaciones descentralizadas.
 
-Solidity:Solidity es un lenguaje de programación 
+Solidity: Solidity es un lenguaje de programación 
 orientado a objetos para escribir contratos inteligentes. 
 Se utiliza para implementar contratos inteligentes ​ en 
 varias plataformas blockchain, la más destacada, Ethereum.
 
-Blockchain:Blockchain.com es un servicio de exploración 
+Blockchain: Blockchain.com es un servicio de exploración 
 de bloques de Bitcoin, así como un monedero de 
 criptodivisas y un intercambio de criptodivisas que 
 soporta Bitcoin, Bitcoin Cash y Ethereum. También 
 proporcionan gráficos de datos de Bitcoin, estadísticas e 
 información de mercado.
 
-Rinked:Este grifo Ether se está ejecutando en la red 
+Rinked: Este grifo Ether se está ejecutando en la red 
 Rinkeby. Para evitar que los actores malintencionados 
 agoten todos los fondos disponibles o acumulen suficiente 
 Ether para montar ataques de spam de larga duración, 
@@ -44,9 +44,18 @@ redes sociales de terceros. Cualquiera que tenga una
 cuenta de Twitter o Facebook puede solicitar fondos 
 dentro de los límites permitidos.
 
-Compilar:En informática, un compilador es un tipo de 
+Compilar: En informática, un compilador es un tipo de 
 traductor que transforma un programa entero de un 
 lenguaje de programación a otro.​ Usualmente el lenguaje 
 objetivo es código máquina, aunque también puede ser 
 traducido a un código intermedio o a texto.
+
+Remix:  IDE basado en un navegador web que permite
+escribir contratos inteligentes de Solidity, para
+más tarde implementar y ejecutar el contrato inteligente.
+
+Smart Contract: programa informático que facilita, asegura, 
+hace cumplir y ejecuta acuerdos registrados entre dos o más partes. 
+
+
 
