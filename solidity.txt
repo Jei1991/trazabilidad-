@@ -2,6 +2,7 @@
 
 pragma solidity >=0.7.0 <0.8.0;
 
+
 contract Granjero{
     string texto_guia;
     string texto_categoria;
@@ -11,6 +12,7 @@ contract Granjero{
     string texto_salida;
     string texto_origen;
     
+
    function Escribir_guia (string calldata _texto_guia) public{
         texto_guia = _texto_guia;
     }
