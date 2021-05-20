@@ -1,0 +1,32 @@
+pragma solidity >=0.7.0 <0.8.0;
+
+contract Veterinario{
+    string Nombre_fiscal;
+    string NIF_CIF;
+    string Numero_colegiado;
+    
+   function Escribir_Nombre_fiscal (string calldata _Nombre_fiscal) public{
+        Nombre_fiscal = _Nombre_fiscal;
+    }
+    
+    function leer_Nombre_fiscal() public view returns(string memory){
+        return Nombre_fiscal;
+    }
+    
+    function Escribir_NIF_CIF (string calldata _NIF_CIF) public{
+        NIF_CIF = _NIF_CIF;
+    }
+    
+    function leer_NIF_CIF() public view returns(string memory){
+        return NIF_CIF;
+    }
+    
+    function Escribir_Numero_colegiado(string calldata _Numero_colegiado) public{
+        Numero_colegiado = _Numero_colegiado;
+    }
+    
+    function leer_Numero_colegiado() public view returns(string memory){
+        return Numero_colegiado;
+    }
+    
+}

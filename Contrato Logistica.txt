@@ -1,0 +1,87 @@
+// SPDX License Identifier: MIT 
+
+pragma solidity >=0.7.0 <0.8.0;
+
+contract Logistica{
+    string Empresa_logistica;
+    string Transportista;
+    string Medio_transporte;
+    string Matricula_vehiculo;
+    string Resguardo;
+    string Fecha_hora_desinfeccion;
+    string NIF_CIF;
+    string Codigo_ATES;
+    string Codigo_sirentra;
+    
+   function Escribir_Empresa_logistica (string calldata _Empresa_logistica) public{
+        Empresa_logistica = _Empresa_logistica;
+    }
+    
+    function leer_Empresa_logistica() public view returns(string memory){
+        return Empresa_logistica;
+    }
+    
+    function Escribir_Transportista (string calldata _Transportista) public{
+        Transportista = _Transportista;
+    }
+    
+    function leer_Transportista() public view returns(string memory){
+        return Transportista;
+    }
+    
+    function Escribir_Medio_transporte(string calldata _Medio_transporte) public{
+        Medio_transporte = _Medio_transporte;
+    }
+    
+    function leer_Medio_transporte() public view returns(string memory){
+        return Medio_transporte;
+    }
+    
+    function Escribir_Matricula_vehiculo(string calldata _Matricula_vehiculo) public{
+        Matricula_vehiculo = _Matricula_vehiculo;
+    }
+    
+    function leer_Matricula_vehiculo() public view returns(string memory){
+        return Matricula_vehiculo;
+    }
+    
+    function Escribir_Resguardo (string calldata _Resguardo) public{
+        Resguardo = _Resguardo;
+    }
+    
+    function leer_Resguardo() public view returns(string memory){
+        return Resguardo;
+    }
+    
+    function Escribir_Fecha_hora_desinfeccion (string calldata _Fecha_hora_desinfeccion) public{
+        Fecha_hora_desinfeccion = _Fecha_hora_desinfeccion;
+    }
+    
+    function leer_Fecha_hora_desinfeccion() public view returns(string memory){
+        return Fecha_hora_desinfeccion;
+    }
+    
+    function Escribir_NIF_CIF (string calldata _NIF_CIF) public{
+       NIF_CIF = _NIF_CIF;
+    }
+    
+    function leer_NIF_CIF() public view returns(string memory){
+        return NIF_CIF;
+    }
+    
+    function Escribir_Codigo_ATES (string calldata _Codigo_ATES) public{
+       Codigo_ATES = _Codigo_ATES;
+    }
+    
+    function leer_Codigo_ATES() public view returns(string memory){
+        return Codigo_ATES;
+    }
+    
+    function Escribir_Codigo_sirentra (string calldata _Codigo_sirentra) public{
+       Codigo_sirentra = _Codigo_sirentra;
+    }
+    
+    function leer_Codigo_sirentra() public view returns(string memory){
+        return Codigo_sirentra;
+    }
+}

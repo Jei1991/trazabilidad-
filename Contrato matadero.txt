@@ -1,0 +1,26 @@
+// SPDX License Identifier: MIT 
+
+pragma solidity >=0.7.0 <0.8.0;
+
+contract Matadero{
+    string Nombre_fiscal;
+    string Numero_animales;
+    
+    
+   function Escribir_Nombre_fiscal (string calldata _Nombre_fiscal) public{
+        Nombre_fiscal = _Nombre_fiscal;
+    }
+    
+    function leer_Nombre_fiscal() public view returns(string memory){
+        return Nombre_fiscal;
+    }
+    
+    function Escribir_Numero_animales (string calldata _Numero_animales) public{
+        Numero_animales = _Numero_animales;
+    }
+    
+    function leer_Numero_animales() public view returns(string memory){
+        return Numero_animales;
+    }
+    
+}
