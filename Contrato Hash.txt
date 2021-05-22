@@ -50,4 +50,8 @@ contract Hash{
         return Hash_Transaccion;
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1d4033fb452fdd7f313e3fa5bf1ea2fad53e3f8d
