@@ -1,0 +1,62 @@
+// SPDX License Identifier: MIT 
+
+pragma solidity >=0.7.0 <0.8.0;
+
+contract Hash{
+    string Hash_Granjero;
+    string Hash_Veterinario;
+    string Hash_Logistica;
+    string Hash_Matadero;
+    string Hash_Transaccion;
+    string Hash_Firmas;
+    
+    
+   function Escribir_Hash_Contrato_Granjero (string calldata _Hash_Granjero) public{
+        Hash_Granjero = _Hash_Granjero;
+    }
+    
+    function leer_Hash_Contrato_Granjero() public view returns(string memory){
+        return Hash_Granjero;
+    }
+    
+    function Escribir_Hash_Contrato_Veterinario (string calldata _Hash_Veterinario) public{
+        Hash_Veterinario = _Hash_Veterinario;
+    }
+    
+    function leer_Hash_Contrato_Veterinario() public view returns(string memory){
+        return Hash_Veterinario;
+    }
+    
+    function Escribir_Hash_Contrato_Logistica (string calldata _Hash_Logistica) public{
+        Hash_Logistica = _Hash_Logistica;
+    }
+    
+    function leer_Hash_Contrato_Logistica() public view returns(string memory){
+        return Hash_Logistica;
+    }
+    
+    function Escribir_Hash_Contrato_Matadero (string calldata _Hash_Matadero) public{
+        Hash_Matadero = _Hash_Matadero;
+    }
+    
+    function leer_Hash_Contrato_Matadero() public view returns(string memory){
+        return Hash_Matadero;
+    }
+    
+    function Escribir_Hash_Transaccion (string calldata _Hash_Transaccion) public{
+        Hash_Transaccion = _Hash_Transaccion;
+    }
+    
+    function leer_Hash_Transaccion() public view returns(string memory){
+        return Hash_Transaccion;
+    }
+    
+    function Escribir_Hash_Firmas (string calldata _Hash_Firmas) public{
+        Hash_Firmas = _Hash_Firmas;
+    }
+    
+    function leer_Hash_Firmas() public view returns(string memory){
+        return Hash_Firmas;
+    }
+    
+}
