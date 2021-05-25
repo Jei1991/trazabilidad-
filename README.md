@@ -6,7 +6,7 @@ comprometia al mensajero o transportador a llevar esto con cuidado y al llegar e
 firmaria la guia pero sin tener la certeza de como venia el producto y de igual manera 
 la guia podia venir sucia, rota o hasta haberse perdido por el camnino.
 </p>
-<p> A traves de la blockchain se crea una cadena de informacion 
+<p> Ahora atraves de la blockchain se crea una cadena de informacion 
   la cual permitira mejorar la trazabilidad de cualquier producto
   en sus diferentes procesos desde su origen hasta el destino sin 
   dejar de lado la calidad del producto </p>
@@ -22,5 +22,5 @@ la guia podia venir sucia, rota o hasta haberse perdido por el camnino.
 <li><i><b>Distribuidor</i></b> Revisa la informacion dada por la empresa distrbuidora para generar su ruta de entrega del producto y produce un nuevo hash colocando la informacion de hora de salida y hora de llegada para las diferentes tiendas.
 <li><i><b>Matadero:</i> </b> Revisa la hora de llegada del distribuidor a traves del hash que fue generado por el distribuidor y que puede observar por la aplicacion de la empresa distribuidora.
 </ul>
-<p>Ahora mostraremos un ejemplo de la trazabilidad de un producto en una cadena de suministro</p>
+<p>Ahora se mostrara las interfaces que manejaria la aplicaion  https://app.moqups.com/utyjqfhfSG/view/page/a80c1fb3c</p>
 
