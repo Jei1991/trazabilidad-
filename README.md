@@ -1,4 +1,4 @@
-<h3> Trazabilidad en Blockchain </h3>
+<h1> Trazabilidad en Blockchain </h1>
 <h2> Que es trazabilidad Blockchain? </h2>
 <p> A traves de la blockchain se crea una cadena de informacion 
   la cual permitira mejorar la trazabilidad de cualquier producto
